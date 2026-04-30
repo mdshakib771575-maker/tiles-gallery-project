@@ -1,0 +1,122 @@
+[
+  {
+    "id": "tile_001",
+    "title": "Ceramic Blue Tile",
+    "description": "Premium ceramic tile with blue glaze finish",
+    "image": "/images/tiles/tile_001.jpg",
+    "category": "ceramic",
+    "price": 45.99,
+    "currency": "USD",
+    "dimensions": "60x60 cm",
+    "material": "Ceramic",
+    "inStock": true
+  },
+  {
+    "id": "tile_002",
+    "title": "Ceramic White Tile",
+    "description": "Elegant ceramic tile with glossy white finish",
+    "image": "/images/tiles/tile_002.jpg",
+    "category": "ceramic",
+    "price": 42.99,
+    "currency": "USD",
+    "dimensions": "60x60 cm",
+    "material": "Ceramic",
+    "inStock": true
+  },
+  {
+    "id": "tile_003",
+    "title": "Porcelain Gray Tile",
+    "description": "Durable porcelain tile with matte gray finish",
+    "image": "/images/tiles/tile_003.jpg",
+    "category": "porcelain",
+    "price": 52.99,
+    "currency": "USD",
+    "dimensions": "80x80 cm",
+    "material": "Porcelain",
+    "inStock": true
+  },
+  {
+    "id": "tile_004",
+    "title": "Marble Effect Tile",
+    "description": "Luxury tile with realistic marble texture",
+    "image": "/images/tiles/tile_004.jpg",
+    "category": "marble",
+    "price": 65.50,
+    "currency": "USD",
+    "dimensions": "60x120 cm",
+    "material": "Ceramic",
+    "inStock": false
+  },
+  {
+    "id": "tile_005",
+    "title": "Wood Look Tile",
+    "description": "Natural wood style tile for modern interiors",
+    "image": "/images/tiles/tile_005.jpg",
+    "category": "wood-look",
+    "price": 58.75,
+    "currency": "USD",
+    "dimensions": "20x120 cm",
+    "material": "Porcelain",
+    "inStock": true
+  },
+  {
+    "id": "tile_006",
+    "title": "Black Matte Tile",
+    "description": "Stylish black matte tile for premium spaces",
+    "image": "/images/tiles/tile_006.jpg",
+    "category": "ceramic",
+    "price": 49.99,
+    "currency": "USD",
+    "dimensions": "60x60 cm",
+    "material": "Ceramic",
+    "inStock": true
+  },
+  {
+    "id": "tile_007",
+    "title": "Mosaic Mix Tile",
+    "description": "Decorative mosaic tile with mixed colors",
+    "image": "/images/tiles/tile_007.jpg",
+    "category": "mosaic",
+    "price": 72.00,
+    "currency": "USD",
+    "dimensions": "30x30 cm",
+    "material": "Glass",
+    "inStock": true
+  },
+  {
+    "id": "tile_008",
+    "title": "Stone Texture Tile",
+    "description": "Stone inspired tile with rugged texture",
+    "image": "/images/tiles/tile_008.jpg",
+    "category": "stone",
+    "price": 55.20,
+    "currency": "USD",
+    "dimensions": "60x60 cm",
+    "material": "Porcelain",
+    "inStock": false
+  },
+  {
+    "id": "tile_009",
+    "title": "Beige Floor Tile",
+    "description": "Classic beige tile perfect for flooring",
+    "image": "/images/tiles/tile_009.jpg",
+    "category": "floor",
+    "price": 39.99,
+    "currency": "USD",
+    "dimensions": "50x50 cm",
+    "material": "Ceramic",
+    "inStock": true
+  },
+  {
+    "id": "tile_010",
+    "title": "Luxury Gold Tile",
+    "description": "Premium gold accent tile for stylish decor",
+    "image": "/images/tiles/tile_010.jpg",
+    "category": "luxury",
+    "price": 89.99,
+    "currency": "USD",
+    "dimensions": "60x120 cm",
+    "material": "Porcelain",
+    "inStock": true
+  }
+]
