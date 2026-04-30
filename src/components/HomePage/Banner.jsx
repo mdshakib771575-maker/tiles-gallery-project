@@ -8,19 +8,20 @@ import Link from "next/link";
 
 export default function Banner() {
   return (
-    <div>
+    <div className="mt-5">
       <Swiper
         navigation={true}
         autoplay={{ delay: 3000 }}
         modules={[Navigation, Autoplay]}
         className="h-[400px]"
       >
-        <SwiperSlide>
-          <div className="bg-[url('https://i.pinimg.com/1200x/8a/fe/83/8afe83b98f339de4c1dd34fde26a86d0.jpg')] h-[60vh] w-full bg-cover bg-no-repeat bg-center flex items-center rounded-lg shadow-2xl">
-            {/* Overlay */}
-            <div className="w-full h-full rounded-lg bg-black/50 flex items-center ">
+
+         <SwiperSlide>
+          <div className="bg-[url('https://i.ibb.co/8nK6V9Sm/banner-tile3.jpg')] h-full w-full bg-cover bg-no-repeat bg-center flex items-center rounded-lg shadow-2xl">
+          
+            <div className="w-full h-full bg-black/50 flex items-center ">
               <div className="max-w-7xl mx-auto px-6 text-white">
-                <h1 className="text-4xl md:text-6xl font-bold mb-4 max-w-2xl">
+                <h1 className="text-4xl md:text-2xl font-bold mb-4 max-w-2xl">
                   Turn Ideas into Stunning AI Art
                 </h1>
                 <p className="text-lg md:text-xl mb-6 max-w-xl text-gray-200">
@@ -28,28 +29,71 @@ export default function Banner() {
                 </p>
 
                 <div className="flex gap-4">
-                  <Link href="#">
-                    <button className=" btn bg-linear-to-r from-pink-500 via-purple-500 bg-red-500">
-                      Generate Now
+                  <Link href="/all-tiles">
+                    <button className="  btn bg-linear-to-r from-pink-100 via-purple-100 bg-red-100">
+                     Browse Now
                     </button>
                   </Link>
 
-                  <Link href="/pricing">
-                    <button className=" btn">
-                      View Pricing
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+            
+         <SwiperSlide>
+          <div className="bg-[url('https://i.ibb.co.com/cXFgTXbz/Geometric-Patterned-Tiles.jpg')] h-full w-full bg-cover bg-no-repeat bg-center flex items-center rounded-lg shadow-2xl">
+          
+            <div className="w-full h-full bg-black/50 flex items-center ">
+              <div className="max-w-7xl mx-auto px-6 text-white">
+                <h1 className="text-4xl md:text-2xl font-bold mb-4 max-w-2xl">
+                  Turn Ideas into Stunning AI Art
+                </h1>
+                <p className="text-lg md:text-xl mb-6 max-w-xl text-gray-200">
+                  Generate high-quality images from simple text prompts.
+                </p>
+
+                <div className="flex gap-4">
+                  <Link href="/all-tiles">
+                    <button className=" btn bg-linear-to-r from-pink-100 via-purple-100 bg-red-100">
+                      Browse Now
                     </button>
                   </Link>
+
+                
                 </div>
               </div>
             </div>
           </div>
         </SwiperSlide>
 
-        <SwiperSlide>
-          <div className="bg-[url('/banner2.jpg')] bg-cover h-full flex items-center justify-center">
-            <h1 className="text-white text-5xl font-bold">Modern Tile Collection</h1>
+         <SwiperSlide>
+          <div className="bg-[url('https://i.ibb.co.com/0Rt7qbn4/Marmo-Satuario-Gold-jpg.webp')] h-full w-full bg-cover bg-no-repeat bg-center flex items-center rounded-lg shadow-2xl">
+          
+            <div className="w-full h-full bg-black/50 flex items-center ">
+              <div className="max-w-7xl mx-auto px-6 text-white">
+                <h1 className="text-2xl md:text-2xl font-bold mb-4 max-w-2xl">
+                  Turn Ideas into Stunning AI Art
+                </h1>
+                <p className="text-lg md:text-xl mb-6 max-w-xl text-gray-200">
+                  Generate high-quality images from simple text prompts.
+                </p>
+
+                <div className="flex gap-4">
+                  <Link href="all-tiles">
+                    <button className="  btn bg-linear-to-r from-pink-100 via-purple-100 bg-red-100">
+                    Browse Now
+                    </button>
+                  </Link>
+
+                
+                </div>
+              </div>
+            </div>
           </div>
         </SwiperSlide>
+  
       </Swiper>
     </div>
   );

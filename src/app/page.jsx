@@ -1,10 +1,13 @@
 import Banner from "@/components/HomePage/Banner";
+import Marquee from "@/components/Marq";
+
 
 export default function Home() {
   return (
     <div>
-      <h1>Home Page</h1>
+      
        <Banner></Banner>
+      <Marquee></Marquee>
     </div>
   );
 }
