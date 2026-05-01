@@ -7,7 +7,7 @@ const TailsCard = ({tile}) => {
       
          <div className="card bg-base-100 shadow-sm">
 
-  <Image src={tile.image} alt={tile.title} width={400} height={200}></Image>
+  <Image src={tile.image} alt={tile.title} width={200} height={200}></Image>
   
   <div className="card-body">
     <h2 className="card-title">{tile.title}</h2>

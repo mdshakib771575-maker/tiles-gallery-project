@@ -11,7 +11,7 @@ export default function Banner() {
     <div className="mt-5">
       <Swiper
         navigation={true}
-        autoplay={{ delay: 3000 }}
+        autoplay={{ delay: 4000 }}
         modules={[Navigation, Autoplay]}
         className="h-[400px]"
       >
@@ -43,7 +43,7 @@ export default function Banner() {
         </SwiperSlide>
             
          <SwiperSlide>
-          <div className="bg-[url('https://i.ibb.co.com/cXFgTXbz/Geometric-Patterned-Tiles.jpg')] h-full w-full bg-cover bg-no-repeat bg-center flex items-center rounded-lg shadow-2xl">
+          <div className="bg-[url('https://i.ibb.co.com/ycCxTVCJ/tiles05.webp')] h-full w-full bg-cover bg-no-repeat bg-center flex items-center rounded-lg shadow-2xl">
           
             <div className="w-full h-full bg-black/50 flex items-center ">
               <div className="max-w-7xl mx-auto px-6 text-white">
