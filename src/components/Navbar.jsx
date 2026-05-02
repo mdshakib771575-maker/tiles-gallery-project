@@ -29,8 +29,8 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end gap-2">
-      <Link href={"/signup"}><button className='btn btn-accent '>Regester</button></Link>
-      <Link href={"/signin"}><button className='btn btn-accent'>signIn</button></Link>
+      <Link href={"/signup"}><button className='btn btn-accent rounded-full '>Regester</button></Link>
+      <Link href={"/signin"}><button className='btn btn-accent rounded-full'>signIn</button></Link>
         </div>
       </div>
     </div>
