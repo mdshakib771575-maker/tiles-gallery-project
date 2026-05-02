@@ -21,7 +21,7 @@ const Footer = () => {
                         <br />
                         Providing reliable tech since 1992
                     </p>
-                    <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
+                    <p>Copyright © {new Date().getFullYear()} - Tiles Gallery</p>
                 </aside>
                 <nav>
                     <div className="grid grid-flow-col gap-4">

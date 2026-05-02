@@ -22,10 +22,10 @@ export default function Banner() {
             <div className="w-full h-full bg-black/50 flex items-center ">
               <div className="max-w-7xl mx-auto px-6 text-white">
                 <h1 className="text-4xl md:text-2xl font-bold mb-4 max-w-2xl">
-                  Turn Ideas into Stunning AI Art
+                 Marble Effect Tile
                 </h1>
                 <p className="text-lg md:text-xl mb-6 max-w-xl text-gray-200">
-                  Generate high-quality images from simple text prompts.
+             Luxury tile with realistic marble texture.
                 </p>
 
                 <div className="flex gap-4">
@@ -48,10 +48,10 @@ export default function Banner() {
             <div className="w-full h-full bg-black/50 flex items-center ">
               <div className="max-w-7xl mx-auto px-6 text-white">
                 <h1 className="text-4xl md:text-2xl font-bold mb-4 max-w-2xl">
-                  Turn Ideas into Stunning AI Art
+                  Ceramic White Tile
                 </h1>
                 <p className="text-lg md:text-xl mb-6 max-w-xl text-gray-200">
-                  Generate high-quality images from simple text prompts.
+               Elegant ceramic tile with glossy white finish.
                 </p>
 
                 <div className="flex gap-4">
@@ -74,10 +74,10 @@ export default function Banner() {
             <div className="w-full h-full bg-black/50 flex items-center ">
               <div className="max-w-7xl mx-auto px-6 text-white">
                 <h1 className="text-2xl md:text-2xl font-bold mb-4 max-w-2xl">
-                  Turn Ideas into Stunning AI Art
+                Porcelain Gray Tile
                 </h1>
                 <p className="text-lg md:text-xl mb-6 max-w-xl text-gray-200">
-                  Generate high-quality images from simple text prompts.
+                Durable porcelain tile with matte gray finish.
                 </p>
 
                 <div className="flex gap-4">
