@@ -35,7 +35,7 @@ const handalSignOut = async ()=>{
               {links}
             </ul>
           </div>
-          <Link href={"/"} className="btn btn-ghost text-xl">Logo</Link>
+          <Link href={"/"} className="btn btn-ghost text-xl">Tiles gallery</Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
