@@ -1,4 +1,4 @@
 import { createAuthClient } from "better-auth/react"
 export const authClient = createAuthClient({
-    baseURL: "https://tiles-gallery-project.vercel.app"
+    baseURL: "https://tiles-gallery-project-esiy.vercel.app"
 })
