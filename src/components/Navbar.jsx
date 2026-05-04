@@ -1,12 +1,26 @@
-import Link from 'next/link';
-import React from 'react';
+"use client"
 
+import { authClient } from '@/lib/auth-client';
+
+import Link from 'next/link';
+
+ 
 const Navbar = () => {
+ 
+  const userData = authClient.useSession();
+const user = userData.data?.user
+console.log(user)
+
+const handalSignOut = async ()=>{
+      await authClient.signOut();
+}
+
   const links = <>
     <li><Link href={"/"}>Home</Link></li>
     <li><Link href={"/all-tiles"}>All Tiles</Link></li>
     <li><Link href={"/my-profile"}>My Profile</Link></li>
   </>
+
   return (
     <div>
       <div className="navbar bg-base-100 shadow-sm">
@@ -29,8 +43,19 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end gap-2">
-      <Link href={"/signup"}><button className='btn btn-accent rounded-full '>Regester</button></Link>
-      <Link href={"/signin"}><button className='btn btn-accent rounded-full'>signIn</button></Link>
+         { !user && <ul className='flex gap-2'>
+      <li><Link href={"/signup"}><button className='btn btn-accent rounded-full '>Regester</button></Link></li>
+     <li> <Link href={"/signin"}><button className='btn btn-accent rounded-full'>LogIn</button></Link></li>
+      </ul>} 
+      {
+        user&&   <div className="avatar flex gap-3 items-center">
+    <div className="w-12 rounded-full">
+      <img src="https://img.daisyui.com/images/profile/demo/batperson@192.webp"referrerPolicy="no-referrer"/>
+
+    </div>
+    <button onClick={handalSignOut} className='btn bg-black text-white'>LogOut</button>
+  </div>
+      }
         </div>
       </div>
     </div>

@@ -25,16 +25,18 @@ export default function SignUpPage() {
        router.push('/')
 
      }
-    
-     
-
-   
-  
-
 }
+
+  
+    const handalsignUp = async () => {
+   await authClient.signIn.social({
+    provider: "google",
+  });
+};
 return (
 
   <div className=' w-[40%] p-10 mx-auto my-8 rounded-2xl shadow-2xl'>
+    <h2 className='text-center font-bold mb-5'>Regester</h2>
     <form onSubmit={onsubmit}>
       <label className="label mb-2">Name</label> <br />
       <input type="text" name='name' className="input w-full" placeholder="Enter Your Name" required />
@@ -59,6 +61,9 @@ return (
         <button type='reset' className='btn btn-outline text-blue-400 mt-4 px-5 rounded-full'>Reset</button>
       </div>
     </form>
+    <p className='text-center my-2'>or</p>
+   <button onClick={handalsignUp} className='w-full btn btn-outline rounded-full'>signUp with Google</button>
+
   </div>
 );
 
