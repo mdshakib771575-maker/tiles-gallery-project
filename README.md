@@ -1,36 +1,167 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🧱 Tiles Gallery - Aesthetic Tile Showcase
 
-## Getting Started
+## 🌐 Live Website
 
-First, run the development server:
+👉https://tiles-gallery-project-esiy.vercel.app
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## 📌 Project Overview
+
+Tiles Gallery is a modern and responsive web application designed to showcase different types of tiles in a clean and aesthetic way. Users can explore tiles, view detailed information, and manage their profile with authentication support.
+
+---
+
+## 🎯 Purpose
+
+The purpose of this project is to:
+
+* Practice full-stack development using Next.js
+* Implement authentication using BetterAuth
+* Display dynamic data from a JSON server / database
+* Build a fully responsive and modern UI
+
+---
+
+## 🚀 Key Features
+
+### 🏠 Home Page
+
+* Beautiful banner slider using SwiperJS
+* Marquee showing latest updates
+* Featured tiles section (Top 4 tiles)
+
+### 🧱 Tiles Gallery
+
+* View all tiles
+* Search tiles by title
+* Clean card-based UI
+
+### 🔍 Tile Details Page
+
+* High-resolution image preview
+* Tile information (title, description, tags, etc.)
+* Private route protection
+
+### 🔐 Authentication System
+
+* Email & Password login
+* User registration
+* Google social login
+* Error handling with toast/messages
+
+### 👤 My Profile
+
+* View user profile information
+* Update name and image
+* Protected route
+
+---
+
+## 🔒 Route Permissions
+
+### Public Routes:
+
+* /
+* /all-tiles
+* /login
+* /register
+
+### Private Routes:
+
+* /tile/[id]
+* /my-profile
+
+---
+
+## 🛠️ Technologies Used
+
+* Next.js (App Router)
+* Tailwind CSS
+* DaisyUI
+* BetterAuth
+* MongoDB
+* SwiperJS
+
+---
+
+## 📦 NPM Packages
+
+* swiper
+* react-fast-marquee
+* axios
+* react-hot-toast
+
+---
+
+## 📁 JSON Data Structure
+
+Example tile data:
+
+```json
+{
+  "id": "tile_001",
+  "title": "Ceramic Blue Tile",
+  "description": "Premium ceramic tile with blue glaze finish",
+  "image": "/images/tiles/tile_001.jpg",
+  "category": "ceramic",
+  "price": 45.99,
+  "currency": "USD",
+  "dimensions": "60x60 cm",
+  "material": "Ceramic",
+  "inStock": true
+}
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🔐 Environment Variables
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Create a `.env.local` file and add:
 
-## Learn More
+```
+MONGODB_URI=your_mongodb_connection
+BETTER_AUTH_SECRET=your_secret_key
+GOOGLE_CLIENT_ID=your_google_client_id
+GOOGLE_CLIENT_SECRET=your_google_client_secret
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📱 Responsiveness
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* Mobile ✅
+* Tablet ✅
+* Desktop ✅
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## ⚙️ Installation & Setup
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+git clone https://github.com/mdshakib771575-maker/tiles-gallery.git
+cd tiles-gallery
+npm install
+npm run dev
+```
+
+---
+
+## 🌟 Future Improvements
+
+* Add wishlist feature
+* Add filtering by category
+* Add reviews and ratings
+* Add dark mode
+
+---
+
+## 👨‍💻 Author
+
+Shakib Hazari
+
+---
+
+## 📜 License
+
+This project is for educational purposes.

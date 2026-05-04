@@ -1,0 +1,50 @@
+[
+  {
+    "id": "cat_01",
+    "name": "Ceramic",
+    "slug": "ceramic",
+    "total": 3
+  },
+  {
+    "id": "cat_02",
+    "name": "Porcelain",
+    "slug": "porcelain",
+    "total": 1
+  },
+  {
+    "id": "cat_03",
+    "name": "Marble",
+    "slug": "marble",
+    "total": 1
+  },
+  {
+    "id": "cat_04",
+    "name": "Wood Look",
+    "slug": "wood-look",
+    "total": 1
+  },
+  {
+    "id": "cat_05",
+    "name": "Mosaic",
+    "slug": "mosaic",
+    "total": 1
+  },
+  {
+    "id": "cat_06",
+    "name": "Stone",
+    "slug": "stone",
+    "total": 1
+  },
+  {
+    "id": "cat_07",
+    "name": "Floor",
+    "slug": "floor",
+    "total": 1
+  },
+  {
+    "id": "cat_08",
+    "name": "Luxury",
+    "slug": "luxury",
+    "total": 1
+  }
+]
