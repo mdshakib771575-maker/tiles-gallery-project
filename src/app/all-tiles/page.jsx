@@ -7,7 +7,8 @@ const AllTilesPage = async ({searchParams}) => {
     console.log(catagori)
     const res = await fetch("https://tiles-gallery-project.vercel.app/data.json")
     const tails = await res.json();
-    console.log(tails)
+
+     const FilterTiles = catagori ? tails.filter(tile => tile.category.toLowerCase() == catagori.toLowerCase()):tails
     return (
         <div className='w-11/12 mx-auto '>
             <h2 className='font-bold mt-5 ' >All Tiles</h2>
@@ -16,7 +17,7 @@ const AllTilesPage = async ({searchParams}) => {
             <input type="text" placeholder="Search" className="input w-11/12 mx-auto block mb-10 mt-5 shadow" />
             <div className='grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 w-11/12 mx-auto'>
 
-                {tails.map(tile => <TailsCard key={tile.id} tile={tile}></TailsCard>)}
+                {FilterTiles.map(tile => <TailsCard key={tile.id} tile={tile}></TailsCard>)}
             </div>
         </div>
     );
