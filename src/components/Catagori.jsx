@@ -7,7 +7,7 @@ const Catagori = async () => {
     console.log(catagoris)
 
     return (
-        <div className='space-x-3 mt-5 text-center'>
+        <div className='space-x-3 mt-5 text-center mb-5'>
             {catagoris.map(catagori => <Link key={catagori.id}  href={`?catagori=${catagori.name.toLowerCase()}`}> <button className='btn btn-outline rounded-full my-2' > {catagori.name}</button> </Link>)}
         </div>
     );
