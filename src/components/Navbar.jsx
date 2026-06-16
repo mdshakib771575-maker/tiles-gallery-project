@@ -3,6 +3,7 @@
 import { authClient } from '@/lib/auth-client';
 
 import Link from 'next/link';
+import NavLink from './HomePage/NavLink';
 
  
 const Navbar = () => {
@@ -16,9 +17,9 @@ const handalSignOut = async ()=>{
 }
 
   const links = <>
-    <li><Link href={"/"}>Home</Link></li>
-    <li><Link href={"/all-tiles"}>All Tiles</Link></li>
-    <li><Link href={"/my-profile"}>My Profile</Link></li>
+    <li><NavLink href={"/"}>Home</NavLink></li>
+    <li><NavLink href={"/all-tiles"}>All Tiles</NavLink></li>
+    <li><NavLink href={"/my-profile"}>My Profile</NavLink></li>
   </>
 
   return (
