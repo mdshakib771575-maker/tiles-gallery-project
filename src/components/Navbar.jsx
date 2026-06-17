@@ -4,6 +4,8 @@ import { authClient } from '@/lib/auth-client';
 
 import Link from 'next/link';
 import NavLink from './HomePage/NavLink';
+import Image from 'next/image';
+import { GiDominoTiles } from 'react-icons/gi';
 
  
 const Navbar = () => {
@@ -32,11 +34,12 @@ const handalSignOut = async ()=>{
             </div>
             <ul
               tabIndex="-1"
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 shadow">
               {links}
             </ul>
           </div>
-          <Link href={"/"} className="btn btn-ghost text-xl">Tiles gallery</Link>
+   
+          <Link href={"/"} className="btn btn-ghost text-xl"><GiDominoTiles/>Tiles gallery</Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">

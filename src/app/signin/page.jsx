@@ -1,6 +1,7 @@
 "use client"
 import { authClient } from '@/lib/auth-client';
 import React from 'react';
+import { FcGoogle } from 'react-icons/fc';
 import { toast } from 'react-toastify';
 
 const SignInPage = () => {
@@ -50,7 +51,7 @@ const SignInPage = () => {
       </div>
     </form>
    <p className='text-center my-2'>or</p>
-   <button onClick={handalsignIn} className='w-full btn btn-outline rounded-full'>LogIn with Google</button>
+   <button onClick={handalsignIn} className='w-full btn btn-outline rounded-full'> <FcGoogle/>LogIn with Google</button>
   </div>
         </div>
     );

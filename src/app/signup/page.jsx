@@ -2,6 +2,7 @@
 import { authClient } from '@/lib/auth-client';
 import { useRouter } from 'next/navigation';
 import React from 'react';
+import { FcGoogle } from 'react-icons/fc';
 import { toast } from 'react-toastify';
 
 export default function SignUpPage() {
@@ -62,7 +63,7 @@ return (
       </div>
     </form>
     <p className='text-center my-2'>or</p>
-   <button onClick={handalsignUp} className='w-full btn btn-outline rounded-full'>signUp with Google</button>
+   <button onClick={handalsignUp} className='w-full btn btn-outline rounded-full'> <FcGoogle/>SignUp with Google</button>
 
   </div>
 );
